@@ -60,9 +60,10 @@
   :liuchengxu/vim-better-default {:mod :better-default}
   :marko-cerovac/material.nvim {:mod :material}
   :mbbill/undotree {:mod :undotree}
+  :williamboman/nvim-lsp-installer {:mod :lspinstaller}
   :neovim/nvim-lspconfig {:mod :lspconfig}
   :nvim-lualine/lualine.nvim {:mod :lualine}
-  :nvim-telescope/telescope.nvim {:mod :telescope :requires [[:nvim-lua/popup.nvim] [:nvim-lua/plenary.nvim]]}
+  :nvim-telescope/telescope.nvim {:mod :telescope :requires [[:nvim-lua/popup.nvim] [:nvim-lua/plenary.nvim] [:nvim-telescope/telescope-file-browser.nvim]]}
   :radenling/vim-dispatch-neovim {}
   :tpope/vim-abolish {}
   :tpope/vim-commentary {}

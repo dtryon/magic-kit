@@ -2,6 +2,7 @@
   {autoload {nvim aniseed.nvim}})
 
 (set nvim.g.vim_better_default_persistent_undo true)
+(set nvim.g.vim_better_default_minimum true)
 (nvim.ex.runtime_ "plugin/default.vim")
 
 (nvim.ex.set :nonumber)
@@ -16,7 +17,7 @@
 
 (nvim.ex.set "clipboard-=unnamedplus")
 
-(nvim.ex.tunmap :<space>wh)
-(nvim.ex.tunmap :<space>wj)
-(nvim.ex.tunmap :<space>wk)
-(nvim.ex.tunmap :<space>wl)
+; (nvim.ex.tunmap :<space>wh)
+; (nvim.ex.tunmap :<space>wj)
+; (nvim.ex.tunmap :<space>wk)
+; (nvim.ex.tunmap :<space>wl)

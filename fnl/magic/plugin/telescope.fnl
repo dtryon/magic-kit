@@ -9,7 +9,12 @@
        {:vimgrep_arguments ["rg" "--color=never" "--no-heading"
                             "--with-filename" "--line-number" "--column"
                             "--smart-case" "--hidden" "--follow"
-                            "-g" "!.git/"]}})
+                            "-g" "!.git/"]}
+       :extensions
+       {:file_browser
+        {:theme "ivy"
+         :hijack_netrw true}}})
+    (telescope.load_extension "file_browser")
 
     (util.lnnoremap :ff "Telescope find_files hidden=true")
     (util.lnnoremap :f- "Telescope file_browser")
