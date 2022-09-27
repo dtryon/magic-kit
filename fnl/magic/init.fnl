@@ -45,6 +45,7 @@
   :PaterJason/cmp-conjure {}
   :PeterRincker/vim-argumentative {}
   :airblade/vim-gitgutter {}
+  :kdheepak/lazygit.nvim {:mod :lazygit}
   :clojure-vim/clojure.vim {}
   :clojure-vim/vim-jack-in {}
   :folke/which-key.nvim {:mod :which-key}
