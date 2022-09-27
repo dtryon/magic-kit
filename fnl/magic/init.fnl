@@ -24,7 +24,6 @@
 (set nvim.o.sessionoptions "blank,curdir,folds,help,tabpages,winsize")
 (set nvim.o.inccommand :split)
 
-(nvim.ex.set :spell)
 (nvim.ex.set :list)
 
 
