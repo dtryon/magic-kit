@@ -17,7 +17,7 @@
     (telescope.load_extension "file_browser")
 
     (util.lnnoremap :ff "Telescope find_files hidden=true")
-    (util.lnnoremap :f- "Telescope file_browser")
+    (util.lnnoremap :f- "Telescope file_browser path=%:p:h")
     (util.lnnoremap :fg "Telescope live_grep")
     (util.lnnoremap :* "Telescope grep_string")
     (util.lnnoremap :fb "Telescope buffers")
