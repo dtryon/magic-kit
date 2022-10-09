@@ -66,6 +66,7 @@
   :nvim-telescope/telescope.nvim {:mod :telescope :requires [[:nvim-lua/popup.nvim] [:nvim-lua/plenary.nvim] [:nvim-telescope/telescope-file-browser.nvim]]}
   :nvim-tree/nvim-tree.lua {:mod :tree :requires [[:nvim-tree/nvim-web-devicons]]}
   :radenling/vim-dispatch-neovim {}
+  :mg979/vim-visual-multi {:branch "master"}
   :tpope/vim-abolish {}
   :tpope/vim-commentary {}
   :tpope/vim-dispatch {}
